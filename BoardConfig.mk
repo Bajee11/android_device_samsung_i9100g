@@ -74,6 +74,9 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 BOARD_VOLD_DISC_HAS_MULTIPLE_MAJORS := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/f_mass_storage/lun%d/file"
 
+# Camera
+COMMON_GLOBAL_CFLAGS += -DSAMSUNG_CAMERA_HARDWARE
+
 # Wifi
 BOARD_WLAN_DEVICE                := bcmdhd
 BOARD_WLAN_DEVICE_REV            := bcm4330_b1
