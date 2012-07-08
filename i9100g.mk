@@ -67,6 +67,7 @@ PRODUCT_PACKAGES := \
 
 # Packages
 PRODUCT_PACKAGES += \
+        Camera \
 	camera.t1 \
 	lights.t1 \
 	audio.a2dp.default \
