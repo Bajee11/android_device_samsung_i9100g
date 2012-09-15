@@ -15,9 +15,6 @@
 -->
 
 <resources>
-    <!-- LED Flashlight -->
-    <bool name="has_led_flash">true</bool>
-
-    <!-- Dock Settings -->
+    <!-- Show dock settings when docked -->
     <bool name="has_dock_settings">true</bool>
 </resources>
